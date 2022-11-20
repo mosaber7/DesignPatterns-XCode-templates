@@ -7,5 +7,5 @@ protocol InteractorProtocol {
 }
 
 class Interactor: InteractorProtocol {
-    var presenter: presenterProtocol?
+    var presenter: PresenterProtocol?
 }
